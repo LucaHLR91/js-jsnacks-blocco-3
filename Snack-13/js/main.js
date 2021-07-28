@@ -8,7 +8,7 @@ for (var i = 0; i < numeri.length; i++) {
         document.getElementById('red').style.color = 'red';
     }else {
         document.getElementById('green').innerHTML += numeri[i];
-        document.getElementById('red').style.color = 'green';
+        document.getElementById('green').style.color = 'green';
     }
 
 }
